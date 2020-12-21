@@ -1,0 +1,25 @@
+{
+    "name": "opensips-syntax",
+    "displayName": "OpenSIPS",
+    "description": "Syntax highlighting for OpenSIPS",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "opensips",
+            "aliases": ["OpenSIPS", "opensips"],
+            "extensions": [".cfg",".cfg.m4"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "opensips",
+            "scopeName": "source.opensips",
+            "path": "./syntaxes/opensips.tmLanguage.json"
+        }]
+    }
+}
