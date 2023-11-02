@@ -3,6 +3,10 @@
     "displayName": "OpenSIPS",
     "description": "Syntax highlighting for OpenSIPS",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/voxtelesys/opensips-syntax"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
