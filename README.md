@@ -6,9 +6,19 @@ This Visual Studio Code (VSCode) extension provides basic syntax highlighting fo
 
 This extension has not yet been published to the VSCode Marketplace, as it is still in beta.
 
+### Legacy
 To add the extension to VSCode, clone the project into your local VSCode folder:
 
 - on Windows: `%USERPROFILE%\.vscode\extensions`
 - on Mac/Linux: `$HOME/.vscode/extensions`
 
 Restart VSCode and the extension will automatically run everytime you open a file with a `.cfg` or `.cfg.m4` extension.
+
+### Current
+To add the extension to VSCode, you will need to manually package the extension via [vsce](https://github.com/microsoft/vscode-vsce):
+
+- run `vsce package`
+- install the `.vsix` file in VSCode
+  1. Go to the Extensions view.
+  2. Click **Views and More Actions...**
+  3. Select **Install from VSIX...**
