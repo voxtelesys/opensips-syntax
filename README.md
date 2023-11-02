@@ -19,6 +19,6 @@ To add the extension to VSCode, you will need to manually package the extension 
 
 - run `vsce package`
 - install the `.vsix` file in VSCode
-  1. Go to the Extensions view.
-  2. Click **Views and More Actions...**
-  3. Select **Install from VSIX...**
+  - Go to the Extensions view.
+  - Click **Views and More Actions...**
+  - Select **Install from VSIX...**
