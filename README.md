@@ -12,7 +12,7 @@ To add the extension to VSCode, clone the project into your local VSCode folder:
 - on Windows: `%USERPROFILE%\.vscode\extensions`
 - on Mac/Linux: `$HOME/.vscode/extensions`
 
-Restart VSCode and the extension will automatically run everytime you open a file with a `.cfg` or `.cfg.m4` extension.
+Restart VSCode and the extension will automatically run everytime you open a file with a `.cfg`, `.cfg.m4`, or `.cfg.j2` extension.
 
 ### Current
 To add the extension to VSCode, you will need to manually package the extension via [vsce](https://github.com/microsoft/vscode-vsce):

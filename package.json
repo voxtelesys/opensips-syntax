@@ -17,7 +17,7 @@
         "languages": [{
             "id": "opensips",
             "aliases": ["OpenSIPS", "opensips"],
-            "extensions": [".cfg",".cfg.m4"],
+            "extensions": [".cfg",".cfg.m4, cfg.j2"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
